@@ -1,5 +1,5 @@
 import React, { useState,useEffect } from 'react';
-import { Menu, X, Upload as Diploma, BookOpen, User, Shield } from 'lucide-react';
+import { Menu, X, GraduationCap as Diploma, BookOpen, User, Shield } from 'lucide-react';
 import Link  from '../ui/Link.jsx';
 
 const Navbar = () => {
@@ -16,7 +16,7 @@ const Navbar = () => {
           <div className="flex">
             <div className="flex-shrink-0 flex items-center">
               <Link to="/" className="flex items-center">
-                <Diploma className="h-8 w-8 text-blue-800" />
+                <Diploma className="h-8 w-8 text-blue-800" strokeWidth={2} />
                 <span className="ml-2 text-xl font-bold text-blue-900">EduChain</span>
               </Link>
             </div>
